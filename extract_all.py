@@ -5,8 +5,7 @@ import numpy as np
 from functools import partial
 from multiprocessing.dummy import Pool
 from subprocess import call
-def chunker(seq, size):
-    return (seq[pos:pos + size] for pos in xrange(0, len(seq), size))
+
     
 if __name__ == '__main__':
      data_Folder = 'data'
