@@ -23,6 +23,4 @@ if __name__ == '__main__':
      for i, returncode in enumerate(pool.imap(partial(call, shell=True), commands)):
         if returncode != 0:
            print("%d command failed: %d" % (i, returncode))
-     for d in dirs:
-         if ( (not os.path.isdir(d)) and  d.endswith('.nc')):
-             print d
+   
