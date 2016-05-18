@@ -1,5 +1,4 @@
 # Climate_Data_helpers
-Climate Data Helpers
 Some gists which I used are described here:
 Blog: https://readchunks.wordpress.com
 
